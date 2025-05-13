@@ -4,9 +4,9 @@
 	"version": "1.0.0",
 	"type": "module",
 	"scripts": {
-		"dev": "bunx --bun vite",
-		"build": "bunx --bun vite build --base=/goit-js-hw-09/",
-		"preview": "bunx --bun vite preview"
+		"dev": "vite",
+		"build": "vite build --base=/goit-js-hw-09/",
+		"preview": "vite preview"
 	},
 	"devDependencies": {
 		"glob": "^11.0.0",
