@@ -28,7 +28,7 @@ form.addEventListener("submit", e => {
 	if (checkValidity()) {
 		iziToast.error({
 			title: "Hey",
-			message: "Incorrect data presented, try again!",
+			message: "Fill please all fields!",
 		})
 		return
 	}
