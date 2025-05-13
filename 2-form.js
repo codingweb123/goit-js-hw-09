@@ -1,0 +1,2 @@
+import"./assets/modulepreload-polyfill-B5Qt9EMX.js";import{i as a,v as s}from"./assets/vendor-Cszfb36-.js";const t={email:"",message:""},r=document.querySelector(".feedback-form"),i=()=>t.email.trim()===""||!s.isEmail(t.email)||t.message.trim()==="";r.addEventListener("input",e=>t[e.target.name]=e.target.value);r.addEventListener("submit",e=>{if(e.preventDefault(),i()){a.error({title:"Hey",message:"Incorrect data presented, try again!"});return}a.success({title:"Yoopeee",message:"Thank you for sending your message! 😊"})});
+//# sourceMappingURL=2-form.js.map
